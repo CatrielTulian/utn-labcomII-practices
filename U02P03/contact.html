@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactos</title>
+    <link rel="stylesheet"
+        href="c:\SourceCode\utn-labcomII-practices\UTN\LabComII\utn-labcomII-practices\U02P03\css U02P03\index.css">
+</head>
+
+<body>
+    <!-- Encabezado -->
+    <header>
+        <h1>Contactos</h1>
+    </header>
+    <div class="container">
+        <!-- Navegación / cotenedor izquierdo -->
+        <nav>
+            <ul>
+                <li><a
+                        href="c:\SourceCode\utn-labcomII-practices\UTN\LabComII\utn-labcomII-practices\U02P03\index.html">Inicio</a>
+                </li>
+                <li><a
+                        href="c:\SourceCode\utn-labcomII-practices\UTN\LabComII\utn-labcomII-practices\U02P03\multimedia.html">Multimedia</a>
+                </li>
+                <li><a
+                        href="c:\SourceCode\utn-labcomII-practices\UTN\LabComII\utn-labcomII-practices\U02P03\contact.html">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+        <!-- Contenedor principal-->
+        <main>
+            <form>
+                <table>
+                    <thead>
+                        <tr>
+                            <td>
+                                <label for="nombre">Nombre:</label>
+                            </td>
+                            <td>
+                                <input type="text" id="nombre" name="nombre" required>
+                            </td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <label for="email">Email:</label>
+                            </td>
+                            <td>
+                                <input type="email" id="email" name="email" required>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="edad">Edad:</label>
+                            </td>
+                            <td>
+                                <input type="number" id="edad" name="edad" min="13">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="color_preferido">Color preferido:</label>
+                            </td>
+                            <td>
+                                <input type="color" id="color_preferido" name="color_preferido">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="comentario">Comentario:</label>
+                            </td>
+                            <td>
+                                <textarea id="comentario" name="comentario" rows="4" cols="50" minlength="10"></textarea>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <br>
+                <button type="submit">submit</button>
+            </form>
+        </main>
+        <!-- Contenedor secundario / derecho -->
+        <div class="right">
+            <h2>Sobre que trata esta web</h2>
+            <p>Esta es una página de noticias y servicios</p>
+        </div>
+    </div>
+    <!-- Pie de Página-->
+    <footer>
+        <p>© copyright Catriel Tulian</p>
+    </footer>
+</body>
+
+</html>

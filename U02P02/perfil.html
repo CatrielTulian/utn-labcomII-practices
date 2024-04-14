@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil</title>
+    <style>
+        body {
+            background-color: rgba(0, 183, 255, 0.999);
+        }
+        fieldset{
+            background-color: rgb(198, 192, 192);
+        }
+        fieldset {
+            text-align: center;
+        }
+        .gustos_musicales {
+            border: 1px;
+            background: white;
+        }
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h1 {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Este es mi perfil</h1>
+    <form>
+        <fieldset>
+            <label for="estudiante"></label>
+            <input type="text" value="ESTUDIANTE" readonly>
+
+            
+
+            <label for="nombre_apellido"></label>
+            <input type="text" value="Catriel Tulian"
+            >
+
+            <br><br>
+
+            <label for="correo">Mi correo es:</label>
+            <input type="email" value="CatrielTulian123@gmail.com" readonly>
+            
+            <br><br>
+
+            <label for="edad">Edad:</label>
+            <input type="number" value="20" >
+
+            <br><br>
+
+            <label for="nacionalidad">Nacionalidad</label>
+            <select name="nacionalidad" id="nacionalidad">
+                <option value="español" id="españa">España</option>
+                <option value="brasil" id="brasil">Brasil</option>
+                <option value="chile" id="chile">Chile</option>
+                <option value="argentina" id="argentina" selected>Argentina</option>
+            </select>
+        
+            <br><br>
+
+            <label name="empleo">Situacion laboral</label>
+            <select name="empleo" id="empleo">
+                <option value="desempleado" selected>Desempleado</option>
+                <option value="en_busqueda_laboral" >En búsqueda laboral</option>
+                <option value="trabajo_part_time">Trabajo part time</option>
+                <option value="trabajo_full_time">Trabajo full time</option>
+            </select>
+           
+            <br><br>
+
+            <section class="datos_personales">
+                <label for="gustos_musicales">Gustos musicales</label>
+                <input type="text" id="gustos_musicales">
+
+                <br><br>
+
+                <label for="comidas_preferidas">Comidas preferidas</label>
+                <select name="comidas_preferidas" id="comidas_preferidas">
+                    <option value="milanesa_napolitana">Milanesa napolitana</option>
+                    <option value="asado">Asado</option>
+                    <option value="guiso">Guiso</option>
+                    <option value="empanadas">Empanadas</option>
+                </select>
+
+                <br><br>
+            </section>   
+            <button type="submit" name="boton">Submit</button>
+        </fieldset>
+    </form>
+</body>
+</html>

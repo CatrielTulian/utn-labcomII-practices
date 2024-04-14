@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook</title>
+    <style>
+        .centered-legend {
+            text-align: center;
+        }
+        .registro, .iniciar-sesion {
+            text-align: center;
+        }
+        body {
+            background-color: rgba(0, 183, 255, 0.999);
+        }
+        h1 {
+            text-align: center;
+        }
+        fieldset{
+            background-color: rgb(198, 192, 192);
+        }
+        form{
+            margin: auto;
+            width: 600px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Inicia sesión en nuestra red social y chatea con tus amigos en cualquier parte del mundo</h1>
+    <form class="iniciar-sesion">
+        <fieldset>
+            <legend class="centered-legend"><b>Iniciar sesión</b></legend>
+
+            <br>
+
+            <label for="correo"></label>
+            <input type="email" id="correo" name="correo" placeholder="Correo" required>
+
+            <br><br>
+
+            <label for="contraseña"></label>
+            <input type="password" id="contraseña" name="contraseña" placeholder="Contraseña" required>
+
+            <br><br>
+
+            <button type="submit" name="boton">Iniciar sesión</button>
+
+        </fieldset>
+    </form>
+    <br><br>
+    <form class="registro">
+        <fieldset>
+            <legend class="centered-legend"><b>¿No tienes cuenta? Registrate aquí</b></legend>
+
+            <br>
+
+            <label for="nombre"></label>
+            <input type="text" id="nombre" name="nombre" placeholder="Nombre" required />
+
+            <br><br>
+
+            <label for="apellido"></label>
+
+            <input type="text" id="apellido" name="apellido" placeholder="Apellido" required />
+
+            <br><br>
+
+            <label for="correo"></label>
+            <input type="email" id="correo" name="correo" placeholder="Correo" required>
+
+            <br><br>
+
+            <label for="contraseña"></label>
+            <input type="password" id="contraseña" name="contraseña" placeholder="Contraseña" required>
+
+            <br><br>
+
+            <label for="fecha"></label>
+            <input type="date" id="fecha" required>
+
+            <br><br>
+
+            <input type="radio" name="genero"><label for="genero" id="genero-1"></label>Femenino</label>
+            <input type="radio" name="genero"><label for="genero" id="genero-2">Masculino</label>
+
+            <br><br>
+
+
+            <button type="submit" name="boton">Registrarse</button> 
+            
+        </fieldset>
+    </form>
+
+</body>
+
+</html>
