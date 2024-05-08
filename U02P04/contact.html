@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactos</title>
+    <link rel="stylesheet" href="C:\SourceCode\UTN\LabComll\utn-labcomII-practices\U02P04\css U02P04\U02P04.css">
+</head>
+
+<body>
+    <!-- Encabezado -->
+    <header>
+        <h1>Contactos</h1>
+    </header>
+    <div class="container">
+        <!-- Navegación / cotenedor izquierdo -->
+        <nav>
+            <ul>
+                <li><a
+                        href="C:\SourceCode\UTN\LabComll\utn-labcomII-practices\U02P04\index.html">Inicio</a>
+                </li>
+                <li><a
+                        href="C:\SourceCode\UTN\LabComll\utn-labcomII-practices\U02P04\multimedia.html">Multimedia</a>
+                </li>
+                <li><a
+                        href="C:\SourceCode\UTN\LabComll\utn-labcomII-practices\U02P04\contact.html">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+        <!-- Contenedor principal-->
+        <main>
+            <form>
+                <table>
+                    <thead>
+                        <tr>
+                            <td>
+                                <label for="nombre">Nombre:</label>
+                            </td>
+                            <td>
+                                <input type="text" id="nombre" name="nombre" required>
+                            </td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <label for="email">Email:</label>
+                            </td>
+                            <td>
+                                <input type="email" id="email" name="email" required>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="edad">Edad:</label>
+                            </td>
+                            <td>
+                                <input type="number" id="edad" name="edad" min="13">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="color_preferido">Color preferido:</label>
+                            </td>
+                            <td>
+                                <input type="color" id="color_preferido" name="color_preferido">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="comentario">Comentario:</label>
+                            </td>
+                            <td>
+                                <textarea id="comentario" name="comentario" rows="4" cols="50"
+                                    minlength="10"></textarea>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <br>
+                <button type="submit">submit</button>
+            </form>
+            <section class="mapa">
+                <h3>Ubicacion de la UTN Rosario</h3>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5630.333853065886!2d-60.64843252061407!3d-32.95585278804535!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b7ab11d0eb49c3%3A0x11f1d3d54f950dd0!2sUniversidad%20Tecnol%C3%B3gica%20Nacional%20%7C%20Facultad%20Regional%20Rosario!5e0!3m2!1sen!2sar!4v1715152041556!5m2!1sen!2sar"
+                    width="400" height="350" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </section>
+        </main>
+        <!-- Contenedor secundario / derecho -->
+        <div class="right">
+            <h2>Sobre que trata esta web</h2>
+            <p>Esta es una página de noticias y servicios</p>
+        </div>
+    </div>
+    <!-- Pie de Página-->
+    <footer>
+        <p>© copyright Catriel Tulian</p>
+    </footer>
+</body>
+
+</html>
