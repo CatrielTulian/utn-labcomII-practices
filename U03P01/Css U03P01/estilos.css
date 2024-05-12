@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box
+}
+
+body {
+    font-family: sans-serif;
+    background-color: rgb(245, 245, 245);
+}
+
+h1 {
+    font-size: 24px;
+    color: #242424;
+    font-weight: 800;
+}
+
+h2 {
+    font-size: 20px;
+    color: #606060;
+    font-weight: 800;
+}
+
+p {
+    font-size: 14px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+li {
+    
+    font-family: monospace;
+    font-size: 18px;
+    margin: 10px;
+}
+
+.link_2 {
+    font-weight: bold;
+    color: orange;
+}
+
+ul {
+    margin-left: 100px;
+    padding: 20px;
+    border: 2px solid blue;
+    width: 40%;
+    list-style-type: none;
+}
+
+.neuquen, .rio_negro, .link_1{
+    color: green;
+}
+
+ul :hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
